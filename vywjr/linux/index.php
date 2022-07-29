@@ -330,7 +330,7 @@ $(document).ready(function(){
 					for($row = $cnt - 1; $row > -1; $row--) {
 				?>
 				<tbody>
-				<tr style = "cursor:pointer;" onClick = " location.href='<?php echo "./board/".$arr[0][$row];?>'" onMouseOver = " indow.status = 'http://ihouse.so.vc' " onMouseOut = " window.status = '' " >
+				<tr style = "cursor:pointer;" onClick = " location.href='<?php echo "./board/".$arr[0][$row];?>'" onMouseOver = "window.status = 'http://ihouse.so.vc' " onMouseOut = " window.status = '' " >
 					<td><?php echo $cnt - $row;?></td>
 					<td><?php echo $arr[0][$row];?></td>
 					<td><?php echo $arr[1][$row];?></td>
