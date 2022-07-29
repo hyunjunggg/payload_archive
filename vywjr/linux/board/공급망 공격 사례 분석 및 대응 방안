@@ -1,0 +1,9 @@
+ODE SIGNING PRACTICES ARE ONLY AS GOOD AS THE POLICIES BEHIND THEM
+Code signing prevents devastating software attacks. Yet signing is often viewed as an afterthought or a tedious extra step. Successful organizations with mature software security rely on strong, written policies to guide signing practices that protect software without slowing or interrupting their CI/CD pipelines. Now, you can read what DevOps experts say should be included in a software signing policy and create your own.
+
+Learn about:
+
+Seven critical signing best practices
+How to create a mission-based, proactive security posture
+Integrating CS (Continuous Signing) into your CI/CD pipeline
+A step-by-step guide for writing your own policy

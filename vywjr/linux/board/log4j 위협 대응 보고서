@@ -1,0 +1,15 @@
+iWhat is Log4j 2, and what does it do?
+As the most widely used logging framework on the internet, organizations across the industry have integrated Apache Log4j 2 into myriad applications. This includes major cloud services such as Apple, Google, Microsoft, and Cloudflare, as well as platforms like Twitter and Stream.
+
+Log4j 2 logs messages from software and searches for errors afterward. The data range is broad, from basic browser and web page information to technical details about the system Log4j 2 runs on.
+
+Not only can the Log4j 2 library create simple logs, but it can also execute commands to generate advanced logging information. In doing so, it can also communicate with other sources, such as internal directory services.
+
+How does the Log4Shell vulnerability cause damage?
+Because the Log4j 2 library can communicate with other sources and internal directory services, attackers can easily feed Log4j 2 with malicious commands from the outside and make it download and execute dangerous code from malicious sources.
+
+How attackers can exploit Log4j 2 depends on the specifics of the affected system. So far, the vast majority of malicious activity has been mass scanning to fingerprint vulnerable systems. Attackers have been exploiting the vulnerability to compromise virtualization infrastructure, install and execute ransomware, steal system credentials, take broad control of compromised networks, and exfiltrate data, according to a Microsoft report.
+
+As reports continue to mount regarding the exploitability of Log4Shell, the possibilities for malicious activity seem exponential. Malicious actors can execute any code on the attacked system, for example, to access sensitive configuration data. In capturing this data, attackers could gain full control of a system — and all its data and applications. This is like a burglar who has keys to the front door and the combination to the safe inside.
+
+What are the vulnerabilities published

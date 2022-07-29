@@ -1,0 +1,5 @@
+ckers have exploited recently disclosed vulnerabilities in Microsoft Exchange Server to gain entry to enterprise networks and distribute phishing emails both internally and externally, Cybereason said in a new threat report.
+
+In August, 2021, a series of attacks exploiting vulnerabilities in Exchange servers, dubbed ProxyShell, followed earlier discoveries of similar, additional attacks termed ProxyLogon and ProxyOracle. ProxyShell is a set of three security vulnerabilities that allow an attacker to remotely load malware on an unpatched system and download and browse through emails with the ultimate intention to launch phishing campaigns.
+
+In the last few months, Cybereason said its researchers have found a number of instances in which hackers have leveraged ProxyShell. The findings are of particular importance to companies deploying Exchange servers. Should attackers successfully gain a foothold in an enterprise network by leveraging ProxyShell, it becomes “relatively easy” to use the network to send phishing emails throughout the organization and to external user accounts with the payload of QBot and DatopLoader, Cybereason said.
