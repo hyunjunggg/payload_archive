@@ -319,8 +319,8 @@ $(document).ready(function(){
 							$file_names[] = $filename;
 							
 							$file_times[] = date("Y M D H:i:s.", filemtime($filename)); 
-							$file_owners[] = fileowner($filename);
-					 		$file_sizes[] = filesize($filename);
+							$file_owners[] = fileowner($dir."/".$filename);
+					 		$file_sizes[] = filesize($dir."/".$filename);
 						}
 					}
 					$arr = array( $file_names, $file_owners, $file_sizes , $file_times);
